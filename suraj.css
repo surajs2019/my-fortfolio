@@ -1,0 +1,512 @@
+body {
+  /* line-height: 27px; */
+  /* font-family: "Radio Canada Big", sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: black;
+}
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.navigation {
+  border-bottom: 1px dotted rgb(119, 118, 118);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.logo > h1 {
+  margin: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.nav > ul {
+  list-style: none;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+.nav > ul > li > a:hover {
+  color: rgb(75, 75, 245);
+}
+
+.firstpage {
+  width: 100%;
+  border-bottom: 1px dotted rgb(80, 78, 78);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.text {
+  font-family: cursive;
+  width: 100%;
+  text-transform: capitalize;
+  margin-left: 60px;
+  }
+
+.text > h4 {
+  color: rgb(250, 205, 7);
+  font-size: 25px;
+}
+.text > h1 {
+  font-family: cursive;
+  color: white;
+  font-size: 42px;
+}
+.text > h3 {
+  color: rgb(255, 254, 253);
+  font-size: 25px;
+}
+
+.text > p {
+  font-family: cursive;
+  color: rgb(255, 196, 1);
+  font-size: 30px;
+  text-transform: none;
+}
+
+.text > a {
+  background-color: rgb(230, 143, 30);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 12px 25px 12px 25px;
+  border-radius: 15px;
+}
+
+a:hover {
+  color: rgb(123, 0, 238);
+  text-decoration: underline;
+}
+.image {
+  margin: 20px 0px;
+  width: 100%;
+
+
+}
+.image > img {
+  width: 70%;
+  border-radius: 1000px;
+}
+
+.about {
+  border-bottom: 1px dotted rgb(71, 70, 70);
+  padding: 30px;
+  line-height: 27px;
+  background-color: rgb(0, 0, 0);
+
+  color: white;
+}
+
+.jj{
+  display: flex;
+}
+.jj > div> img {
+  border: 2px solid rgb(255, 196, 0);
+  border-radius: 200px;
+  background-color: rgb(255, 0, 0);
+  width: 150px;
+  height: 180px;
+}
+
+.percent > h3 {
+  margin-top: 30px;
+  text-decoration: underline; 
+}
+ 
+ 
+.percent {
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.skill {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+
+
+.progress-capsule {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #f35106, #ffe602,#1bda02 );
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+
+
+.about-me > p {
+  margin: 20px;
+  /* padding: 20px; */
+}
+.about-me > pre {
+  margin: 22px 34px 20px 41px;
+  font-size: 18px;
+  text-transform: capitalize;
+  
+}
+.mm{
+  display: flex;
+  justify-content: space-between;
+}
+.text-about > h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+.text-about > p {
+  color: rgb(156, 156, 156);
+  margin-bottom: 25px;
+}
+.text-about > pre {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.text-about > pre > b {
+  color: rgba(255, 177, 10, 0.904);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.text-about > a {
+  padding: 15px;
+  background-color: rgb(255, 166, 0);
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 20px;
+  text-transform: uppercase;
+  /* margin-top: 20px; */
+}
+.resume {
+  background-color: black;
+}
+.resume > div > h1 {
+  font-size: 65px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  text-transform: uppercase;
+  text-shadow: 3px 4px 10px white;
+  padding-top: 60px;
+}
+.resume > div > p {
+  color: white;
+  text-align: center;
+  margin: 40px;
+  text-transform: capitalize;
+}
+.education > h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 4px 8px white;
+  margin: 20px;
+  padding-top: 60px;
+}
+.education-part {
+  display: flex;
+  background-color: black;
+}
+
+.education-part > div {
+  width: 33%;
+  box-shadow: 1px 1px 8px white;
+  background-color: rgb(29, 28, 28);
+  text-align: center;
+  margin: 10px;
+}
+.education-part > div > h3 {
+  color: rgb(255, 187, 0);
+  font-size: 27px;
+  /* margin: 0px; */
+}
+.education-part > div > p {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  text-transform: capitalize;
+}
+.education-part > div > h5 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.education-part > div > pre {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.experience {
+  background-color: black;
+}
+.experience > h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 3px 4px 8px white;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.experience-part {
+  /* width: 50%; */
+  display: flex;
+  background-color: black;
+  /* box-shadow: 2px 2px 8px white;
+  background-color: rgb(36, 34, 34);
+  text-align: center;
+  margin: 10px; */
+}
+.experience-part > div {
+  width: 50%;
+  box-shadow: 1px 1px 8px white;
+  background-color: rgb(27, 27, 27);
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+.experience-part > div > h3 {
+  color: rgb(255, 187, 0);
+  font-size: 27px;
+  text-transform: capitalize;
+}
+.experience-part > div > h4 {
+  font-size: 20px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+.experience-part > div > h5 {
+  font-size: 15px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+.experience-part > div > p {
+  text-align: left;
+  margin: 10px;
+}
+.experience-part > div > ul {
+  text-align: left;
+}
+.button {
+  padding-top: 40px;
+  border-bottom: 1px dotted rgb(90, 88, 88);
+}
+.button > div {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.button > div > a {
+  color: white;
+  background-color: rgb(255, 196, 0);
+  padding: 18px 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.project {
+  text-align: center;
+}
+.project > div {
+  /* text-align: center; */
+  color: rgb(255, 253, 253);
+  padding-top: 40px;
+}
+.project > div > h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgb(255, 209, 2);
+}
+.project > div > p {
+  font-size: 17px;
+}
+.imagee {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+.imagee > div {
+  width: 33.33%;
+}
+.imagee > div > div {
+  margin: 13px;
+  padding: 13px;
+  /* box-shadow: 1px 1px 8px rgb(90, 89, 89); */
+}
+.imagee > div > div > img {
+  width: 100%;
+  /* object-fit: cover; */
+  aspect-ratio: 1/1;
+  box-shadow: 1px 1px 8px rgb(90, 89, 89);
+  border-radius: 5px;
+}
+.achievement {
+  margin: 60px;
+  padding: 40px;
+}
+.achievement > div {
+  display: flex;
+  color: rgb(253, 253, 253);
+  /* padding: 20px; */
+  /* width: 25px; */
+}
+.achievement > div > div {
+  width: 20%;
+  background-color: rgb(24, 23, 23);
+  text-transform: capitalize;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 8px rgb(153, 153, 117);
+  padding: 20px;
+  margin: 40px;
+}
+.achievement > div > div > h1 {
+  color: rgb(255, 187, 0);
+  margin: 0px;
+}
+.achievement > div > div > h4 {
+  color: rgb(182, 182, 230);
+}
+.imagee > div > div:hover {
+  padding: 20px;
+}
+.love {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  /* border-bottom: 1px dotted rgb(146, 141, 141); */
+}
+.love > h1 {
+  margin: 0px;
+  text-shadow: 2px 2px 8px rgb(255, 209, 2);
+}
+.love > p {
+  color: rgb(252, 220, 160);
+  font-size: 20px;
+  margin: 30px;
+}
+.love > a {
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(255, 166, 0);
+}
+.contact {
+  background-image: url(image/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 1350px;
+  height: 500px;
+  object-fit: cover;
+  /* object-fit: cover; */
+  text-align: center;
+  aspect-ratio: 0/1;
+  color: white;
+  text-transform: capitalize;
+  /* margin: 50px; */
+}
+
+.contact > div > h1 {
+  padding-top: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgb(236, 220, 148);
+}
+.contact > div > p {
+  color: rgb(209, 202, 189);
+  font-size: 20px;
+  margin: 30px;
+}
+.contact-part {
+  margin: 70px;
+  padding: 20px;
+}
+.contact-part > div {
+  display: flex;
+  /* width: 20px; */
+}
+.contact-part > div > div {
+  width: 20%;
+  box-shadow: 1px 1px 8px white;
+  margin: 40px;
+  border-radius: 100px;
+  /* padding: 20px 0px; */
+}
+.contact-part > div > div > i {
+  font-size: 30px;
+}
+
+.footer {
+  color: white;
+}
+.footer > div {
+  text-align: center;
+  text-transform: capitalize;
+}
+.footer > div > h1 {
+  text-shadow: 2px 2px 8px rgb(236, 220, 148);
+  font-size: 37px;
+}
+
+.click > a {
+  padding: 10px;
+  background-color: rgb(255, 174, 0);
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.socil > a{
+  margin: 7px;
+  padding: 10px;
+  background-color: rgb(255, 174, 0);
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer > div > h2 {
+  margin: 0px;
+  margin-top: 60px;
+  text-transform: capitalize;
+}
+
+.end {
+  background-color: rgb(71, 68, 68);
+  padding: 20px;
+}
